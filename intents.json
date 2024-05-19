@@ -1,0 +1,230 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Bismillah hir-rahman nir-raheem \nWelcome, I'm an AI-powered Ultimate bot. \nI'm here to assist with your requests \nand answers to the best of my ability.",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "who develop you",
+        "who built you",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you"
+      ],
+      "responses": [
+        "Mobashshir Hasan, working as Traine for Ultimatetek Solutions."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "what are you"
+      ],
+      "responses": [
+        "I am a Ultimate Chatbot."
+      ]
+    },
+    {
+      "tag": "company",
+      "patterns": [
+        "information about company",
+        "about company",
+        "about ultimatetek solutions",
+        "ultimatetek solutions",
+        "about us",
+        "vision"
+      ],
+      "responses": [
+        "Ultimate Tek Solution is a specialized for Software development and marketing, Established in 2015 at Bangalore ,\nWe are one of the fastest growing company in the field of IT Industry, and offshore software development especially focusing on ERP Products. \nOur vision is to get customers' absolute trust and professional culture of distinction. Thus, Ultimate Tek Solutions abides to continue development, innovation, and distinction in providing customers services.",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "IT",
+      "patterns": [
+        "Who is IT manager",
+        "Where is IT manager",
+        "it manager",
+        "name of it manager"
+      ],
+      "responses": [
+        "Mohammad Shadab Ashraf is IT Manager."
+      ]
+    },
+    {
+      "tag": "task",
+      "patterns": [
+        "what can you do",
+        "what are the thing you can do",
+        "things you can do",
+        "what can u do for me",
+        "how u can help me",
+        "why i should use you"
+      ],
+      "responses": [
+        "I can answer to low-intermediate questions regarding company Ultimatetek Solutions. ",
+        "You can ask me questions regarding company Ultimatetek Solutions , and i will try to answer them"
+      ]
+    },
+    {
+      "tag": "md",
+      "patterns": [
+        "MD",
+        "MD name",
+        "who is the MD"
+      ],
+      "responses": [
+        "Mohamed Idris Suhale, Managing Director of Ultimatetek Solutions Pvt. Ltd."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the office located",
+        "office is located at",
+        "where is office",
+        "where is office located",
+        "address of office",
+        "how to reach office",
+        "office location",
+        "office address",
+        "wheres the office",
+        "how can I reach office",
+        "whats is the office address",
+        "what is the address of office",
+        "address",
+        "location"
+      ],
+      "responses": [
+        "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.755832926769!2d77.57545!3d12.923408599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae159d04de0bed%3A0x335d8f33993264b4!2sUltimate%20Tek%20Solutions!5e0!3m2!1sen!2sin!4v1714631951021!5m2!1sen!2sin\"></iframe>"
+      ]
+    },
+    {
+      "tag": "ceo",
+      "patterns": [
+        "CEO",
+        "CEO name",
+        "who is the CEO"
+      ],
+      "responses": [
+        "Mr. Ali Abdulhafidh Abdullah Al-Yousefi, General Manager of Yemensoft Co. and CEO of Ultimatetek Solutions Pvt. Ltd."
+      ]
+    },
+    {
+      "tag": "gm",
+      "patterns": [
+        "GM",
+        "GM name",
+        "who is the GM",
+        "who is the general manager"
+      ],
+      "responses": [
+        "Mr. Ali Abdulhafidh Abdullah Al-Yousefi, General Manager of Yemensoft Co. and CEO of Ultimatetek Solutions Pvt. Ltd."
+      ]
+    },
+    {
+      "tag": "System",
+      "patterns": [
+        "Who is system admin",
+        "system admin",
+        "name of system admin"
+      ],
+      "responses": [
+        "Mohammad Shadab Ashraf is system admin."
+      ]
+    },
+    {
+      "tag": "Price",
+      "patterns": [
+        "information about price",
+        "tell me the price",
+        "what is price",
+        "what is the price",
+        "how much is the price",
+        "price",
+        "about the price",
+        "tell me something about the price"
+      ],
+      "responses": [
+        "For price detail visit <a target=\"_blank\" href=\"https://www.ultimatetek.in\"> here </a>"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}

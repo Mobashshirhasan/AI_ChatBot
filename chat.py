@@ -8,7 +8,7 @@ from nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('intents.json', 'r') as json_data:     #here we load the intents.json.
+with open('intents.json', 'r') as json_data:   #here we load the intents.json.
     intents = json.load(json_data)
 
 FILE = "data.pth"
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     while True:
         # sentence = "do you use credit cards?"
         sentence = input("You: ")
-        if sentence == "quit":
+        if sentence == "quit" :
             break
 
         resp = get_response(sentence)

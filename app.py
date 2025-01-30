@@ -12,7 +12,7 @@ def index_get():
     return render_template("base.html")
 
 
-@app.post("/predict")  #  here we extract json
+@app.post("/predict")  # here we extract json
 def predict():
     text = request.get_json().get("message ")
     #TODO: check if text is valid
